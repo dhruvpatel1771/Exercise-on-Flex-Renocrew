@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+.logo{
+    width: 43px;
+    height: 23px;
+    
+}
+
+.logo img{
+    width: 10vw;
+    position: relative;
+    bottom: 10px;
+    
+}
+nav{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 2;
+    
+}
+    
+img{
+    width: 8px;
+    margin-left: 2px;
+    position: relative;
+    bottom: 2px;
+    
+}
+
+
+.nav_content ul{
+    display: flex;
+    
+}
+
+.nav_content ul li{
+    list-style: none;
+    padding: 17px;
+    cursor: pointer;
+    font-size: 17px;
+    
+    
+}
+
+.translate_logo img{
+    width: 18px;
+    position: relative;
+    top: 3px;
+    right: 7px;
+}
